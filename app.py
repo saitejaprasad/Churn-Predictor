@@ -265,7 +265,7 @@ st.markdown(f"""
         <h1 style="font-size:1.6rem;font-weight:700;margin:0 0 .25rem;color:#fff;letter-spacing:-.02em;">📉 Customer Churn Predictor</h1>
         <p style="font-size:.82rem;color:#93c5fd;margin:0;">ML-powered risk assessment · {model_name} · Trained on 10,000 Telco records · 19 features</p>
     </div>
-    <div style="text-align:right;font-size:.78rem;color:#7dd3fc;line-height:1.6;">Built by <strong style="color:white;">Saiteja Prasad Sunkara</strong><br>M.S. IST · Missouri S&T · 2025</div>
+    
 </div>
 """, unsafe_allow_html=True)
 
@@ -292,7 +292,7 @@ with left:
         <div class="metric-card"><p class="ml">ROC-AUC</p><p class="mv">{metrics['roc_auc']:.2f}</p></div>
     </div>
     <div style="background:#eff6ff;border-radius:10px;padding:.85rem 1rem;border-left:3px solid #3b82f6;font-size:.79rem;color:#1e40af;line-height:1.5;">
-        <strong>ℹ️ About this model</strong><br>
+        <strong> About this model</strong><br>
         {model_name} trained on 10,000 Telco records. Three models compared — {model_name} selected based on highest F1 score.
     </div>
     """, unsafe_allow_html=True)
@@ -393,4 +393,4 @@ st.markdown(f"""
     <div class="si"><p class="sl">Segment</p><p class="sv" style="color:{sc2};">{seg.split()[0]}</p></div>
 </div>
 """, unsafe_allow_html=True)
-st.markdown('<div style="text-align:center;margin-top:1.5rem;padding-top:1rem;border-top:1px solid #e2e8f0;color:#94a3b8;font-size:.72rem;">Built by <strong style="color:#475569;">Saiteja Prasad Sunkara</strong> · M.S. IST, Missouri S&T 2025 · <a href="https://www.sunkarasaitejaprasad.com/" style="color:#3b82f6;text-decoration:none;">Portfolio</a> · Gradient Boosting · Telco Customer Churn (10,000 records)</div>', unsafe_allow_html=True)
+st.markdown('<div style="text-align:center;margin-top:1.5rem;padding-top:1rem;border-top:1px solid #e2e8f0;color:#94a3b8;font-size:.72rem;"> <a href="https://www.sunkarasaitejaprasad.com/" style="color:#3b82f6;text-decoration:none;">Check My Portfolio</a> · Gradient Boosting · Telco Customer Churn (10,000 records)</div>', unsafe_allow_html=True)
